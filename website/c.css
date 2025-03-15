@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    box-shadow: 5px 5px 5px gray;
+    display: flex;
+    background-color: #6d4c41;
+    color: white;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_container img {
+    border: solid;
+    border-color: white;
+    border-radius: 50%;
+}
+
+.logo_container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.logo_name {
+    display: flex;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xxx-large;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: 80%;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.bg_container {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url('https://images.pexels.com/photos/2638019/pexels-photo-2638019.jpeg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: auto;
+    text-align: left;
+    color: #dcb14e;
+
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.content {
+    position: relative;
+    max-width: 600px;
+    padding: 20px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.content h2 {
+    font-size: 40px;
+    padding-bottom: 10px;
+}
+
+.content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.menu {
+    padding: 50px 20px;
+}
+
+.menu h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 40px;
+
+}
+
+.best_coffee {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.product {
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    text-align: center;
+    transition: 0.3 ease-in-out;
+}
+
+.product img {
+    border-radius: 4px;
+
+}
+
+.product img:hover {
+    transform: scale(1.1);
+}
+
+.product h1 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.description {
+    font-size: 0.9rem;
+    color: #555;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.product:hover {
+
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+.book_btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #671010;
+    background: transparent;
+    border: 2px solid #615f5f;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration: none;
+    font-style: inherit;
+    font-family: 'Rock Salt', cursive;
+
+}
+
+.shop_button {
+    text-align: center;
+    padding-top: 40px;
+}
+
+footer {
+    background: #6d4c41;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact Form</title>
+    <link rel="stylesheet" href="pts.css">
+</head>
+<body>
+    <nav>
+        <div class="navigation">
+            <div class="logo_container">
+                <img height="150px" src="https://previews.123rf.com/images/serdjo/serdjo2305/serdjo230500434/209926892-coffee-shop-logo-template-natural-abstract-coffee-cup-with-steam-coffee-house-emblem-creative.jpg" alt="logo">
+            </div>
+            <div class="logo_name" style="margin-top: 30px;"> <h1><B>Cafemate</B></h1></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pizaa.html">Menu</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="post.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="form-container">
+        <h1>Contact Form</h1>
+
+        <form action="http://127.0.0.1:5500/index.html" method="get" class="contactForm">
+            <div class="input-group">
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname" required>
+            </div>
+
+            <div class="input-group">
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname" required>
+            </div>
+
+            <div class="input-group">
+                <label for="Phone">Phone no</label>
+                <input type="number" id="Phone" name="Phone" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="feedback">Reason</label>
+                <textarea id="feedback" name="feedback" placeholder="Give the Reason for contact" rows="4" required></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit</button>
+            <button type="reset" class="reset-btn">Reset</button>
+        </form>
+    </div>
+    <footer>
+        <p>@ 2025 Cafemate. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

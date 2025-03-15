@@ -1,0 +1,134 @@
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-style: oblique;
+    background-color: bisque;
+    /* font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+}
+nav {
+    box-shadow: 5px 5px 5px gray;
+    display: flex;
+    background-color: #6d4c41;
+    color: white;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin-left: 60%;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.logo_container img{
+    border: solid;
+    border-color: white;
+    border-radius: 50%;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 60px;
+    display: flex;
+    justify-content: center;
+}
+.logo_container{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.logo_name{
+    display: flex;
+    text-align: center;
+    margin-bottom: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xxx-large;
+}
+  
+  .form-container {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1em;
+  }
+  
+  .submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+  }
+  .reset-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  footer {
+    background: #6d4c41;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+}
+  
